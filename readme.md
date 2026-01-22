@@ -11,14 +11,14 @@
  - migration: arquivos de sql para rodar o migration do banco de dados.
  - mocks: estruturas auxiliares para mockar repositórios, serviços e http.Client nos testes unitários.
  - models: estruturas que representam os dados dos jsons nos requests e responses.
- - services: camada de serviço acionada nos controllers para executar os procedimento necessários.
- - repositories: camada de acesso direto ao banco de dados (operações DML)
+ - services: camada de serviço acionada nos controllers para executar os procedimentos necessários.
+ - repositories: camada de acesso direto ao banco de dados (operações DML).
 
  OBS: Todas as estruturas de serviços (module services) e repositórios (module repositories) implementam as interfaces especificadas no modules interfaces, facilitando assim a injeção de dependências e criação dos testes unitários.
 
 # Para execução de testes unitários
   rodar: go test ./services/...
-  arquivo com as impletações dos testes: services/freigth_test.go
+  arquivo com as implementações dos testes: services/freigth_test.go
 
 
 # Para execução do projeto via docker
