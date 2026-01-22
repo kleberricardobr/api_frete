@@ -1,0 +1,40 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Documentação
+README.md
+*.md
+
+# Testes
+*_test.go
+coverage.out
+coverage.html
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Binários
+*.exe
+*.dll
+*.so
+*.dylib
+api_frete
+
+# Dependências
+vendor/
+
+# Logs
+*.log
+
+# Temporários
+tmp/
+temp/
