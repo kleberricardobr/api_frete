@@ -4,7 +4,7 @@
  - Biblioteca para migration: golang-migrate
 
 # Estrutra de pastas
- - config: module resposável por carregar as variáveis de ambiente. 
+ - config: module responsável por carregar as variáveis de ambiente. 
  - database: module (db_service.go) responsável por conectar-se com o banco de dados Postgres, expor uma conexão global ("Conn *sql.DB") e rodar o migrations para criação dos objetos.
  - handlers: module com os controllers e adição dos mesmos ao router.
  - interfaces: especificação das interfaces a serem implementadas.
